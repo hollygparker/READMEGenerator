@@ -1,38 +1,39 @@
 function createMD(data) {
-    return `# ${data.title}
+    return `
+# ${data.title}
     
-    ## Description
-    ${data.description}
+## Description
+${data.description}
     
-    # Table of Contents
+# Table of Contents
     
-    * [installation](#installation)
+* [installation](#installation)
     
-    * [usage](#usage)
+* [usage](#usage)
     
-    * [guidelines](#guidelines)
+* [guidelines](#guidelines)
     
-    * [test](#test)
+* [test](#test)
     
-    # Installation
+# Installation
     
-    Run the command to install the CLI application.
+Run the command to install the CLI application.
 
-    ${data.installation}
+${data.installation}
     
-    # Usage Information
+# Usage Information
     
-    ${data.usage}
+${data.usage}
     
-    # Contribution Guidelines
+# Contribution Guidelines
     
-    ${data.guidelines}
+${data.guidelines}
     
-    # Test Instructions
+# Test Instructions
     
-    Run the command to execute the test for the application. 
+Run the command to execute the test for the application. 
 
-    ${data.test}`
+${data.test}`
 }
 
 module.exports = createMD
