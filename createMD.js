@@ -21,11 +21,11 @@ ${data.description}
     
 * [installation](#installation)
     
-* [Usage Information](#Usage Information)
+* [usage](#usage)
     
-* [Contribution Guidelines](#Contribution Guidelines)
+* [guidelines](#guidelines)
     
-* [Test Instructions](#Test Instructions)
+* [test](#test)
 
 * [questions](#questions)
 
@@ -35,15 +35,15 @@ Run the command to install the CLI application.
 
 ${data.installation}
     
-# Usage Information
+# Usage
     
 ${data.usage}
     
-# Contribution Guidelines
+# Guidelines
     
 ${data.guidelines}
     
-# Test Instructions
+# Test
     
 Run the command to execute the test for the application. 
 

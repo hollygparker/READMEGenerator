@@ -13,23 +13,30 @@ desc
 * [guidelines](#guidelines)
     
 * [test](#test)
-    
+
+* [questions](#questions)
+
 # Installation
     
 Run the command to install the CLI application.
 
 npm i
     
-# Usage Information
+# Usage
     
 usage
     
-# Contribution Guidelines
+# Guidelines
     
-be nice
+be ncie 
     
-# Test Instructions
+# Test
     
 Run the command to execute the test for the application. 
 
 npm run test
+
+# Questions
+
+Feel free to contact me, my gihub username is jfp and my email is je@email
+
