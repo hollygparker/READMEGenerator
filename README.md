@@ -1,35 +1,15 @@
 
-# title
-(https://img.shields.io/badge/license-MIT-purple.svg)
-## Description
-descr
-    
-# Table of Contents
-    
-* [installation](#installation)
-    
-* [usage](#usage)
-    
-* [guidelines](#guidelines)
-    
-* [test](#test)
-    
-# Installation
-    
-Run the command to install the CLI application.
+# ReadME Generator
 
-npm i
-    
-# Usage Information
-    
-usagfe
-    
-# Contribution Guidelines
-    
-godias
-    
-# Test Instructions
-    
-Run the command to execute the test for the application. 
 
-npm run test
+# Purpose 
+The purpose of this assignment was to utilize the inqurier package to write a Readme file from the command line interface. 
+
+# My Experience
+I had a good time creating the logic for this application from scratch. Learning more about Javascript and the possibilities was my favorite part.
+
+# Screen Recording of Application
+
+
+# Credit 
+Holly Parker
