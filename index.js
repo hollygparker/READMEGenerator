@@ -57,7 +57,7 @@ function init() {
   inquirer.prompt (questions)
   .then((response) => {
     console.log("CREATING README")
-    writeToFile("README.md", createMD({
+    writeToFile("createdREADME.md", createMD({
       ...response
     }))
   } )

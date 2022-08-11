@@ -2,7 +2,7 @@
 # title
 ![license](https://img.shields.io/badge/license-MIT-purple.svg)
 ## Description
-desct
+desc
     
 # Table of Contents
     
@@ -26,7 +26,7 @@ usage
     
 # Contribution Guidelines
     
-fdjlas
+be nice
     
 # Test Instructions
     
