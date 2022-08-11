@@ -1,7 +1,14 @@
+
+function generateLicense(badge) {
+    return `https://img.shields.io/badge/license-${badge}-purple.svg`
+}
+
+
+
 function createMD(data) {
     return `
 # ${data.title}
-    
+${generateLicense(data.badge)}
 ## Description
 ${data.description}
     

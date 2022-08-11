@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
 
 const inquirer = require("inquirer");
 const fs = require('fs');
 const path = require('path');
 const createMD = require("./createMD")
+
 const questions = [
     {
       type: "input",
@@ -16,9 +16,16 @@ const questions = [
       name: "description",
     },
     {
+      type: "list",
+      message: "License Badge:",
+      name: "badge",
+      choices: ["MIT","Mozilla", "APACHE", "none"]
+    },
+    {
       type: "input",
       message: "Installation:",
       name: "installation",
+      default:"npm i"
     },
     {
       type: "input",
@@ -34,6 +41,7 @@ const questions = [
       type: "input",
       message: "Test Instructions:",
       name: "test",
+      default:"npm run test"
     }
   ]
 
@@ -48,6 +56,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt (questions)
   .then((response) => {
+    console.log("CREATING README")
     writeToFile("README.md", createMD({
       ...response
     }))
