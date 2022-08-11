@@ -1,8 +1,8 @@
 
 # title
-https://img.shields.io/badge/license-Mozilla-purple.svg
+(https://img.shields.io/badge/license-MIT-purple.svg)
 ## Description
-djofsla
+descr
     
 # Table of Contents
     
@@ -18,15 +18,15 @@ djofsla
     
 Run the command to install the CLI application.
 
-fjoidsal
+npm i
     
 # Usage Information
     
-jldfs
+usagfe
     
 # Contribution Guidelines
     
-
+godias
     
 # Test Instructions
     
