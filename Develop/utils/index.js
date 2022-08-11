@@ -37,20 +37,13 @@ const questions = [
     }
   ]
 
-    // fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
-    //   err ? console.log(err) : console.log('Success!')
-    // );
-//   .then((response) =>
-//     response.confirm === response.password
-//       ? console.log("Success!")
-//       : console.log("You forgot your password already?!")
-//   );
-
+  // writing to file taking in file name (md file) and data which is what the user types in
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 
+// calls the inquirer pkg to ask questions in questions arr and take that response and genate md by the template in createMD.js, spreading answers
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt (questions)
