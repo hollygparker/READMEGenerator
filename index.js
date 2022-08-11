@@ -23,6 +23,16 @@ const questions = [
     },
     {
       type: "input",
+      message: "Github username:",
+      name: "github",
+    },
+    {
+      type: "input",
+      message: "Email:",
+      name: "email",
+    },
+    {
+      type: "input",
       message: "Installation:",
       name: "installation",
       default:"npm i"

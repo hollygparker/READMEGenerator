@@ -21,12 +21,14 @@ ${data.description}
     
 * [installation](#installation)
     
-* [usage](#usage)
+* [Usage Information](#Usage Information)
     
-* [guidelines](#guidelines)
+* [Contribution Guidelines](#Contribution Guidelines)
     
-* [test](#test)
-    
+* [Test Instructions](#Test Instructions)
+
+* [questions](#questions)
+
 # Installation
     
 Run the command to install the CLI application.
@@ -45,7 +47,14 @@ ${data.guidelines}
     
 Run the command to execute the test for the application. 
 
-${data.test}`
+${data.test}
+
+# Questions
+
+Feel free to contact me, my gihub username is ${data.github} and my email is ${data.email}
+
+`
+
 }
 
 module.exports = createMD
