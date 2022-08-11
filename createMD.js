@@ -8,6 +8,14 @@ function generateLicense(badge) {
     }
 }
 
+function generateLicenseSect (badge) {
+    if(badge !== "none") {
+        return `## License
+This application is licensed under ${badge}`
+    } else{
+        return ''
+    }
+}
 
 
 function createMD(data) {
@@ -38,7 +46,7 @@ ${data.installation}
 # Usage
     
 ${data.usage}
-    
+${generateLicenseSect(data.badge)}   
 # Guidelines
     
 ${data.guidelines}

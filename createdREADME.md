@@ -25,10 +25,11 @@ npm i
 # Usage
     
 usage
-    
+## License
+This application is licensed under MIT   
 # Guidelines
     
-be ncie 
+nbefd
     
 # Test
     
@@ -38,5 +39,5 @@ npm run test
 
 # Questions
 
-Feel free to contact me, my gihub username is jfp and my email is je@email
+Feel free to contact me, my gihub username is djfa and my email is em@eamil.com
 
