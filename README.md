@@ -9,6 +9,9 @@ I enjoyed explorer what is possible with the inquirer npm package. I will use th
 # Screen Recording of working application
 https://drive.google.com/file/d/18fi3mU7ni4oU-z0aju4Kg6wwPEvaBLEI/view?usp=sharing
 
+# Screenshot of readme that was generatored
 
-#Credits
+
+
+# Credits
 Holly Parker, 2022
