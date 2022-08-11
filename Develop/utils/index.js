@@ -2,8 +2,8 @@
 
 const inquirer = require("inquirer");
 const fs = require('fs');
-
-const createMd = require("./createMD")
+const path = require('path');
+const createMD = require("./createMD")
 const questions = [
     {
       type: "input",
@@ -58,7 +58,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt (questions)
   .then((response) => {
-    writeToFile("README.md", createMd({
+    writeToFile("README.md", createMD({
       ...response
     }))
   } )

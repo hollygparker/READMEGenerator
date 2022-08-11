@@ -1,9 +1,8 @@
-function createMD(data) {
-    return `# ${data.title}
+# zebra
     
     # Description
     
-    ${data.description}
+    animal with stripes
     
     # Table of Contents
     
@@ -19,21 +18,18 @@ function createMD(data) {
     
     Run the command to install the CLI application.
 
-    ${data.installation}
+    why would you install an animal
     
     # Usage Information
     
-    ${data.usage}
+    weird question
     
     # Contribution Guidelines
     
-    ${data.guidelines}
+    donate to your zoo
     
     # Test Instructions
     
     Run the command to execute the test for the application. 
 
-    ${data.test}`
-}
-
-module.exports = createMD
+    also weird
