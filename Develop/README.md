@@ -1,8 +1,7 @@
-# zebra
+# milk
     
-    # Description
-    
-    animal with stripes
+    ## Description
+    dairy
     
     # Table of Contents
     
@@ -18,18 +17,18 @@
     
     Run the command to install the CLI application.
 
-    why would you install an animal
+    put in fridge
     
     # Usage Information
     
-    weird question
+    chug a lug
     
     # Contribution Guidelines
     
-    donate to your zoo
+    weird
     
     # Test Instructions
     
     Run the command to execute the test for the application. 
 
-    also weird
+    drink up
