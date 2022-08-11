@@ -1,7 +1,7 @@
 
 function generateLicense(badge) {
     if(badge !== "none"){
-        return `https://img.shields.io/badge/license-${badge}-purple.svg`
+        return `![license](https://img.shields.io/badge/license-${badge}-purple.svg)`
 
     } else {
         return "No badge specified"

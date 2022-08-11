@@ -1,8 +1,8 @@
 
 # title
-(https://img.shields.io/badge/license-MIT-purple.svg)
+![license](https://img.shields.io/badge/license-MIT-purple.svg)
 ## Description
-descr
+desct
     
 # Table of Contents
     
@@ -22,11 +22,11 @@ npm i
     
 # Usage Information
     
-usagfe
+usage
     
 # Contribution Guidelines
     
-godias
+fdjlas
     
 # Test Instructions
     
